@@ -12,15 +12,20 @@ output:
 ```{r}
 c(1, 1L, "C")
 ```
+I think that these are characters
 
 ```{r}
 1
 1L
 "C"
 ```
+I think the first 1 is a double, the second 1 is an integer, and the C is character
 
 ```{r}
 typeof(c(1, 1L, "C"))
+typeof(1)
+typeof(1L)
+typeof("C")
 ```
 
 -   `c(1L / 0, "A")`

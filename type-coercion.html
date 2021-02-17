@@ -1531,13 +1531,21 @@ div.tocify {
 </ul>
 <pre class="r"><code>c(1, 1L, &quot;C&quot;)</code></pre>
 <pre><code>## [1] &quot;1&quot; &quot;1&quot; &quot;C&quot;</code></pre>
+<p>I think that these are characters</p>
 <pre class="r"><code>1</code></pre>
 <pre><code>## [1] 1</code></pre>
 <pre class="r"><code>1L</code></pre>
 <pre><code>## [1] 1</code></pre>
 <pre class="r"><code>&quot;C&quot;</code></pre>
 <pre><code>## [1] &quot;C&quot;</code></pre>
+<p>I think the first 1 is a double, the second 1 is an integer, and the C is character</p>
 <pre class="r"><code>typeof(c(1, 1L, &quot;C&quot;))</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre class="r"><code>typeof(1)</code></pre>
+<pre><code>## [1] &quot;double&quot;</code></pre>
+<pre class="r"><code>typeof(1L)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>typeof(&quot;C&quot;)</code></pre>
 <pre><code>## [1] &quot;character&quot;</code></pre>
 <ul>
 <li><code>c(1L / 0, &quot;A&quot;)</code></li>
